@@ -16,10 +16,3 @@ $ ./gralew clean bootJar
 
 #scp -i <KEY.pem> ubuntu@<SERVER_IP> "cd /home/ubuntu/app/spring-rest-api;pwd;./start.sh:"
 ```
-
-## Remote Stop
-```bash
-# scp -i <KEY.pem> stop.sh ubuntu@<SERVER_IP>:~/app/spring-rest-api
-
-#scp -i <KEY.pem> ubuntu@<SERVER_IP> "cd /home/ubuntu/app/spring-rest-api;pwd;./stop.sh:"
-```
