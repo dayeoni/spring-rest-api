@@ -1,5 +1,7 @@
 # SPRING-REST-API
 
+## Test
+```bash
 $ curl http://localhost:8080/hello | jq
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -9,6 +11,7 @@ $ curl http://localhost:8080/hello | jq
   "timesptamp": 1759295483997,
   "message": "Hello, World!"
 }
+```
 
 ## Run
 ```bash
